@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 02d2e5a8d8922b4419a0649fce0b3957
+guid: dcbbb8250435ff74eb6d6d28cdcf6c7c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -31,7 +31,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Walking
+      name: caminata
       takeName: mixamo.com
       internalID: -203655887218126122
       firstFrame: 0
@@ -43,10 +43,10 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
       keepOriginalOrientation: 0
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 0
@@ -526,13 +526,13 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: lu_prueba@Walking(Clone)
+    - name: luxia_caminata(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:Hips
-      parentName: lu_prueba@Walking(Clone)
+      parentName: luxia_caminata(Clone)
       position: {x: -0.0000801155, y: 0.020699998, z: -0.00019277328}
       rotation: {x: -0.006677285, y: -0.089454055, z: 0.051837318, w: 0.99461865}
       scale: {x: 1, y: 1, z: 1}
