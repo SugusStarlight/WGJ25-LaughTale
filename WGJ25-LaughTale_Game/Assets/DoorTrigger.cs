@@ -1,6 +1,14 @@
 using UnityEngine;
 
-public class PuertaCorrediza
+public class DoorTrigger : MonoBehaviour
 {
-    
+    public Animator animator;
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            animator.SetTrigger("Open");
+        }
+    }
 }
